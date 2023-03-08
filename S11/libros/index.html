@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/libros/style.css"
+        crossorigin="anonymous" />
+    <title>Tienda de Libros</title>
+</head>
+
+<body background="https://as1.ftcdn.net/v2/jpg/05/30/78/48/1000_F_530784876_tVVLgkCNenjbjs8nNIucVZDN9YLoePdI.jpg">
+
+    <div class="container">
+        <form id="id-form-registro-titular-cuenta">
+            <div class="card shadow mt-2">
+                <div class="card-header p-3 h5">
+                    <img src="https://cdn-icons-png.flaticon.com/512/29/29302.png" alt="" width="30" height="24">
+                    Tienda de Libros
+                </div>
+                <div class="card-body">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="https://img.freepik.com/foto-gratis/vista-superior-disposicion-libros_23-2148882757.jpg" class="d-block w-100" alt="" width="150  " height="300">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://oceandrive.com.ve/wp-content/uploads/2021/01/CuyspersBibliotheek-Ocean-Drive-Venezuela-2.jpg" class="d-block w-100" alt="..." width="150  " height="300">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://cgac.xunta.gal/sites/default/files/styles/header_crop_71_28/public/img/cabeceiras/2020-09/biblio1.jpg?h=8d3f5f2d&itok=2h6DU2iy" class="d-block w-100" alt="..." width="150  " height="300">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                  <h3> "En caso de duda, ve a la biblioteca."</h3>
+                </div>
+                <div class="caja" align="center">
+                    <div class="row mb-3">
+                        <label for="" class="col-sm-2 col-form-label">CAJA</label>
+                        <div class="col-sm-2">
+                            <input type="text" class="form-control" id="caja">
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                    <h4>Libro actual</h4>              
+                </hr>    
+                <div class="formulario">
+                    <div class="row g-2">
+                        <div class="col-md-2">
+                                <label for="" class="form-label">ISBN:</label>
+                                <input type="text" class="form-control" name="matricula" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="" class="form-label">TITULO:</label>
+                            <input type="text" class="form-control" name="conductor" required>
+                        </div>
+                    </div>
+                    <div class="row g-2">
+                        <div class="col-md-2 ">
+                            <label for="" class="form-label">PRECIO COMPRA:</label>
+                            <input type="text" class="form-control" name="capacidad" required>
+                        </div>
+
+                        <div class="col-md-2">
+                            <label for="" class="form-label">PRECIO VENTA:</label>
+                            <input type="text" class="form-control" name="consumo" required>
+                        </div>         
+                    </div>
+                    <div class="row g-2">
+                        <div class="col-md-2">
+                            <label for="" class="form-label">UNIDADES:</label>
+                            <input type="text" class="form-control" name="carga" required>
+                        </div>
+                    </div>
+                    <div class="botones" align="center">
+                        <button type="button" class="btn" id="id-btn-cargar">
+                            <i class="fa-solid"></i>
+                            REGISTAR NUEVO LIBRO
+                        </button>
+                        <button type="button" class="btn" id="id-btn-cargar">
+                            <i class="fa-solid"></i>
+                            ABASTECER
+                        </button>
+                        <button type="button" class="btn" id="id-btn-descargar">
+                            <i class="fa-solid"></i>
+                            VENDER
+                        </button>
+                        <button type="button" class="btn" id="id-btn-buscar">
+                            <i class="fa-solid"></i>
+                            ELIMINAR
+                        </button>
+                        <button type="button" class="btn" id="id-btn-buscar">
+                            <i class="fa-solid"></i>
+                            BODEGA DE LA TIENDA
+                        </button>
+                    </div>
+                    <hr>
+                        <h4>Consultas</h4>              
+                    </hr>
+                    <div class="row g-2">
+                        <div class="col-md-2">
+                                <label for="" class="form-label">ISBN:</label>
+                                <input type="text" class="form-control" name="matricula" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="" class="form-label">TITULO:</label>
+                            <input type="text" class="form-control" name="conductor" required>
+                        </div>
+                    </div>
+                    <div class="row g-2">
+                        <div class="col-md-2 ">
+                            <label for="" class="form-label">PRECIO COMPRA:</label>
+                            <input type="text" class="form-control" name="capacidad" required>
+                        </div>
+
+                        <div class="col-md-2">
+                            <label for="" class="form-label">PRECIO VENTA:</label>
+                            <input type="text" class="form-control" name="consumo" required>
+                        </div>         
+                    </div>
+                    <div class="botones" align="center">
+                        <hr>
+                        <button type="button" class="btn" id="id-btn-cargar">
+                            <i class="fa-solid"></i>
+                            BUSCAR POR ISBN
+                        </button>
+                        <button type="button" class="btn" id="id-btn-descargar">
+                            <i class="fa-solid"></i>
+                            BUSCAR POR TITULO
+                        </button>
+                        <button type="button" class=" btn" id="id-btn-buscar">
+                            <i class="fa-solid"></i>
+                            LIBRO MÁS ECNOMÓMICO
+                        </button>
+                        <button type="button" class=" btn" id="id-btn-buscar">
+                            <i class="fa-solid"></i>
+                            LIBRO MÁS COSTOSO
+                        </button>
+                        <button type="button" class=" btn" id="id-btn-buscar">
+                            <i class="fa-solid"></i>
+                            LIBRO MÁS VENDIDO
+                        </button>
+                        <button type="button" class=" btn" id="id-btn-buscar">
+                            <i class="fa-solid"></i>
+                            TRANSACCIONES DEL LIBRO
+                        </button>
+                    </div>
+                    <div class="gif" align="center"><img src="https://media.giphy.com/media/QJLXrQEqmmmC4/giphy.gif"></div>
+                </div>
+                <footer>
+                    <p align="center">&copy; 2023 DERECHOS RESERVADOS</p>
+                </footer>
+            </div>
+        </form>
+        
+        
+
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <script src="./app.js" type="module">
+
+        /// codigo fuente
+
+    </script>
+
+</body>
+
+</html>

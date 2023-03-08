@@ -1,0 +1,33 @@
+h3{
+    text-align: center;
+    font-family:serif;
+    font-style: oblique;
+}
+
+.img-fluid{
+    width: 300px;
+    height: 150px;
+    margin-left: 20px;
+}
+
+.formulario{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.botones{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn1{
+    margin-left: 700px;
+}
+
+.gif{
+    margin-top: 20px;
+}
+p{
+    font-size: small;
+}
